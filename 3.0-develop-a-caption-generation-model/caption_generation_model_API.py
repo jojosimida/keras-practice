@@ -169,7 +169,7 @@ def train_test_split(dataset):
     # order keys so the split is consistent
     ordered = sorted(dataset)
     # return split dataset as two new sets
-    return set(ordered[:100]), set(ordered[100:200])
+    return set(ordered[:5500]), set(ordered[5500:6000])
 
 
 # In[9]:
